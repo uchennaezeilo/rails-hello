@@ -33,3 +33,8 @@
 # Ignore key files for decrypting credentials and more.
 /config/*.key
 
+log/*
+tmp/*
+node_modules
+.bundle
+vendor/bundle
