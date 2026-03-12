@@ -1,4 +1,9 @@
-<div class="container">
-  <h1>Hello World!</h1>
-  <p>This Ruby on Rails application was created as part of an apprenticeship technical test.</p>
-</div>
+<h1>Hello World!</h1>
+
+<h2>Visitor Messages</h2>
+
+<ul>
+  <% @messages.each do |message| %>
+    <li><strong><%= message.name %>:</strong> <%= message.content %></li>
+  <% end %>
+</ul>
